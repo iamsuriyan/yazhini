@@ -1,0 +1,18 @@
+body{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: black;
+    margin: 0;
+    padding: 0;
+}
+h1{
+    font-size: 80px;
+    background: linear-gradient(270deg,rgb(95, 2, 95),rgb(250, 3, 3),rgb(241, 241, 8),rgb(253, 174, 4),rgb(241, 79, 106),rgb(250, 244, 244),rgb(32, 203, 255));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+h1:hover{
+    text-shadow:0 0 6px #fff , 0 0 10px #fff,0 0 15px #ff852e,0 0 20px #ff853e, 0 0 25px #ff852e,0 0 30px #ff852e;
+}
